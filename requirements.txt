@@ -1,0 +1,5 @@
+pyppeteer
+httpx[http2]
+pyrogram
+tgcrypto
+aiofiles
