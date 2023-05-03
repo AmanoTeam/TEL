@@ -95,7 +95,7 @@ async def main():
 	
 	if os.path.exists(path = ETAG_FILE):
 		async with aiofiles.open(file = ETAG_FILE, mode = "r") as file:
-			text = file.read()
+			text = await file.read()
 		
 		headers.update(
 			{
